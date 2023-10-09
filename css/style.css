@@ -1,0 +1,46 @@
+/* ROOT */
+
+:root {
+    --header-footer-bg-color: #2C3E50;
+    --aqua-green-bg-color: #1ABC9C;
+    --debug-col-bg-color: #BA4B63;
+    --footer-top-bg-color: #3A546D;
+}
+
+header {
+    background-color: var(--header-footer-bg-color);
+    /* debug */
+    border: 1px solid black;
+    min-height: 5rem;
+}
+
+#hero {
+    background-color: var(--aqua-green-bg-color);
+    /* debug */
+    min-height: 10rem;
+}
+
+.card {
+    /* debug */
+    background-color: var(--debug-col-bg-color);
+}
+
+.about-section {
+    background-color: var(--aqua-green-bg-color);
+}
+
+.form-section {
+    /* debug */
+    border: 1px solid black;
+    min-height: 20rem;
+}
+
+.footer-top {
+    background-color: var(--footer-top-bg-color);
+}
+
+.footer-bottom {
+    background-color: var(--header-footer-bg-color);
+    /* debug */
+    min-height: 4rem;
+}
