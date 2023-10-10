@@ -28,7 +28,7 @@ hr {
     vertical-align: middle;
     border: 2px solid;
     color: inherit;
-    min-width: 15%;
+    min-width: 10%;
     opacity: 1;
     border-color: inherit;
     border-radius: 3px;
@@ -59,18 +59,10 @@ header {
 
 /* PORTFOLIO SECTION */
 
-.card {
-    /* debug */
-    background-color: var(--debug-col-bg-color);
-}
-
 .ms_portfolio-card {
     border: none;
-    
 }
 
-
-/* ABOUT SECTION */
 
 /* FORM SECTION */
 
