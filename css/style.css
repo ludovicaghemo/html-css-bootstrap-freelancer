@@ -41,12 +41,12 @@ hr {
 
 ul {
     list-style-type: none;
+    color: inherit;
 }
 
 ul li {
-    /* padding-left: 1rem; */
-    /* border: 1px solid white; */
     text-align: center;
+    color: inherit;
 }
 
 /* BUTTONS */
@@ -72,10 +72,21 @@ ul li {
 
 header {
     background-color: var(--header-footer-bg-color);
-    height: 80px;
-    /* debug */
-    border: 1px solid black;
+    height: 60px;
 }
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link, .container a {
+    color: white;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
 
 /* MAIN */
 
