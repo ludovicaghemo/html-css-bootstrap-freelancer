@@ -23,7 +23,20 @@ img {
     margin-bottom: 2rem;
 }
 
+hr {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid;
+    color: inherit;
+    min-width: 15%;
+    opacity: 1;
+    border-color: inherit;
+    border-radius: 3px;
+    
+}
+
 .ms_star {
+    vertical-align: middle; 
     font-size: 2rem;
 }
 
@@ -39,29 +52,9 @@ header {
 /* MAIN */
 /* HERO */
 
-.ms_hero-section {
-    /* debug */
-    min-height: 10rem;
-}
-
 .ms_section-title img {
     width: 15rem;
 }
-
-hr {
-    display: inline-block;
-    vertical-align: middle;
-    border: 3px solid white;
-    border-color: white;
-    border-radius: 3px;
-    min-width: 15%;
-    opacity: 1;
-}
-
-.ms_star {
-    vertical-align: middle; 
-}
-
 
 
 /* PORTFOLIO SECTION */
@@ -70,6 +63,12 @@ hr {
     /* debug */
     background-color: var(--debug-col-bg-color);
 }
+
+.ms_portfolio-card {
+    border: none;
+    
+}
+
 
 /* ABOUT SECTION */
 
