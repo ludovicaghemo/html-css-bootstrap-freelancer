@@ -62,6 +62,12 @@ ul li {
     margin-right: .6rem;
 }
 
+.ms_send-btn {
+    color: white;
+    border: 1px solid var(--aqua-green-bg-color);
+    background-color: var(--aqua-green-bg-color);
+}
+
 /* HEADER */
 
 header {
