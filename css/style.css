@@ -32,7 +32,6 @@ hr {
     opacity: 1;
     border-color: inherit;
     border-radius: 3px;
-    
 }
 
 .ms_star {
@@ -50,12 +49,12 @@ header {
 }
 
 /* MAIN */
+
 /* HERO */
 
 .ms_section-title img {
     width: 15rem;
 }
-
 
 /* PORTFOLIO SECTION */
 
@@ -66,10 +65,15 @@ header {
 
 /* FORM SECTION */
 
-.ms_form-section {
-    /* debug */
-    border: 1px solid black;
-    min-height: 20rem;
+.ms_form-control {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+
+#message {
+    height: 10rem;
 }
 
 /* FOOTER */
