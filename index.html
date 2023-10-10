@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -33,32 +38,36 @@
 
     <main>
         <!-- Hero Section-->
-        <section id="hero">
+        <section class="ms_primary_section ms_hero-section py-5">
             <div class="container">
-                <div class="hero-content">
+                <div class="ms_section-title">
                     <!-- Avatar -->
+                    <img class="py-3" src="img/avatar.svg" alt="avatar picture">
                     <h1 class="text-center pt-2">START BOOTSTRAP</h1>
-                    <!-- Star Symbol -->
+                      <!-- Star Symbol -->
+                    <hr>
+                    <span class="ms_star m-2"></i> <i class="fa-solid fa-star" style="color: #ffffff;"></i></span>
+                    <hr>
                     <!-- Description -->
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde laboriosam deserunt omnis ut alias hic, tempore amet corrupti possimus accusamus expedita numquam, est distinctio error sunt rerum! Esse, hic aliquam.
+                    <p class="mt-5"> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
             </div>
         </section>
         <!-- /Hero Section-->
 
         <!-- Portfolio Section -->
-        <section class="portfolio-section">
+        <section class="ms_portfolio-section py-5">
             <div class="container mt-5">
-                <div class="portfolio-title d-flex justify-content-center">
+                <div class="ms_section-title d-flex justify-content-center">
                     <h2>
                         PORTFOLIO
                     </h2>
                     <!-- Star symbol -->
                 </div>
                 
-                <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 p-3">
-                    <div class="card gx-5 gy-5">
+                <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repellendus possimus odit tempore ipsam maiores provident
                     reprehenderit non veritatis facere consequuntur expedita
@@ -66,8 +75,8 @@
                     tempore molestias.
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 p-3">
-                    <div class="card gx-5 gy-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repellendus possimus odit tempore ipsam maiores provident
                     reprehenderit non veritatis facere consequuntur expedita
@@ -75,8 +84,8 @@
                     tempore molestias.
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 p-3">
-                    <div class="card gx-5 gy-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repellendus possimus odit tempore ipsam maiores provident
                     reprehenderit non veritatis facere consequuntur expedita
@@ -84,8 +93,8 @@
                     tempore molestias.
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 p-3">
-                    <div class="card gx-5 gy-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repellendus possimus odit tempore ipsam maiores provident
                     reprehenderit non veritatis facere consequuntur expedita
@@ -93,8 +102,8 @@
                     tempore molestias.
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 p-3">
-                    <div class="card gx-5 gy-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repellendus possimus odit tempore ipsam maiores provident
                     reprehenderit non veritatis facere consequuntur expedita
@@ -102,8 +111,8 @@
                     tempore molestias.
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 p-3">
-                    <div class="card gx-5 gy-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repellendus possimus odit tempore ipsam maiores provident
                     reprehenderit non veritatis facere consequuntur expedita
@@ -118,54 +127,66 @@
         <!-- /Portfolio Section -->
 
         <!-- About Section -->
-        <section class="about-section p-5">
+        <section class="ms_primary_section ms_about-section py-5">
             <div class="container">
-                <div class="portfolio-title d-flex justify-content-center">
+                <div class="ms_section-title d-flex justify-content-center">
                     <h2>
                         ABOUT
                     </h2>
                     <!-- Star symbol -->
                 </div>
                 
-                <div class="row">
-                    <div class="col-12 col-md-6 p-3">
-                        <div class="card gx-5 gy-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repellendus possimus odit tempore ipsam maiores provident
-                        reprehenderit non veritatis facere consequuntur expedita
-                        excepturi inventore, quibusdam dolor? Excepturi esse eligendi
-                        tempore molestias.
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 p-3">
-                        <div class="card gx-5 gy-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repellendus possimus odit tempore ipsam maiores provident
-                        reprehenderit non veritatis facere consequuntur expedita
-                        excepturi inventore, quibusdam dolor? Excepturi esse eligendi
-                        tempore molestias.
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <!-- Inner grid -->
+                        <div class="row g-4">
+                            <div class="col-12 col-md-6">
+                                <!-- <div class="card gx-5 gy-5"> -->
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Repellendus possimus odit tempore ipsam maiores provident
+                                reprehenderit non veritatis facere consequuntur expedita
+                                excepturi inventore, quibusdam dolor? Excepturi esse eligendi
+                                tempore molestias.
+                                <!-- </div> -->
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <!-- <div class="card gx-5 gy-5"> -->
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Repellendus possimus odit tempore ipsam maiores provident
+                                reprehenderit non veritatis facere consequuntur expedita
+                                excepturi inventore, quibusdam dolor? Excepturi esse eligendi
+                                tempore molestias.
+                                <!-- </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- /row -->
-                <!-- Download button -->
-                <a class="btn btn-outline-light" href="">Download</a>
+                <!-- Download button --> 
+                <div class="d-flex justify-content-center pt-4">
+                    <button class="btn btn-sm btn-outline-light text-center">Download</button>
+                </div>
             </div>
             <!-- /Container -->
         </section>
         <!-- /About Section -->
 
         <!-- Form Section-->
-        <section class="form-section p-3">
+        <section class="ms_form-section py-3">
             <div class="container">
                 <div class="form-content">
                     <!-- Title -->
-                    <div class="form-title">
+                    <div class="ms_section-title">
                         <h2 class="text-center pt-2">CONTACT ME</h2>
                         <!-- Star Symbol -->
                     </div>
                     <!-- Form -->
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde laboriosam deserunt omnis ut alias hic, tempore amet corrupti possimus accusamus expedita numquam, est distinctio error sunt rerum! Esse, hic aliquam.
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde laboriosam deserunt omnis ut alias hic, tempore amet corrupti possimus accusamus expedita numquam, est distinctio error sunt rerum! Esse, hic aliquam.
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -177,12 +198,12 @@
     
     <footer>
         <!-- Footer-Top -->
-        <div class="footer-top">
+        <div class="ms_footer-top py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat vel quidem minima molestias </div>
-                    <div class="col-12 col-md-4 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat vel quidem minima molestias </div>
-                    <div class="col-12 col-md-4 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat vel quidem minima molestias </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat vel quidem minima molestias </div>
+                    <div class="col-12 col-md-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat vel quidem minima molestias </div>
+                    <div class="col-12 col-md-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat vel quidem minima molestias </div>
                 </div>
                 <!-- /row -->
             </div>
@@ -193,10 +214,10 @@
          
 
         <!-- Footer-Bottom -->
-        <div class="footer-bottom">
-            <div class="container text-center">
-                Copyright
-            </div>
+        <div class="ms_footer-bottom text-center py-4">
+            <p>
+                Copyright @your website              
+            </p>
         </div>
         <!-- /Footer-Bottom -->
     </footer>

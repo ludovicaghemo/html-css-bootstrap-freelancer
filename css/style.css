@@ -1,5 +1,9 @@
-/* ROOT */
+/* RESET */
+img {
+    max-width: 100%;
+}
 
+/* ROOT */
 :root {
     --header-footer-bg-color: #2C3E50;
     --aqua-green-bg-color: #1ABC9C;
@@ -7,40 +11,89 @@
     --footer-top-bg-color: #3A546D;
 }
 
-header {
-    background-color: var(--header-footer-bg-color);
-    /* debug */
-    border: 1px solid black;
-    min-height: 5rem;
+/* COMMON */
+.ms_primary_section {
+    color: white;
+    background-color: var(--aqua-green-bg-color);
 }
 
-#hero {
-    background-color: var(--aqua-green-bg-color);
+.ms_section-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.ms_star {
+    font-size: 2rem;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--header-footer-bg-color);
+    height: 80px;
+    /* debug */
+    border: 1px solid black;
+}
+
+/* MAIN */
+/* HERO */
+
+.ms_hero-section {
     /* debug */
     min-height: 10rem;
 }
+
+.ms_section-title img {
+    width: 15rem;
+}
+
+hr {
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid white;
+    border-color: white;
+    border-radius: 3px;
+    min-width: 15%;
+    opacity: 1;
+}
+
+.ms_star {
+    vertical-align: middle; 
+}
+
+
+
+/* PORTFOLIO SECTION */
 
 .card {
     /* debug */
     background-color: var(--debug-col-bg-color);
 }
 
-.about-section {
-    background-color: var(--aqua-green-bg-color);
-}
+/* ABOUT SECTION */
 
-.form-section {
+/* FORM SECTION */
+
+.ms_form-section {
     /* debug */
     border: 1px solid black;
     min-height: 20rem;
 }
 
-.footer-top {
+/* FOOTER */
+footer {
+    color: white;
+}
+
+.ms_footer-top {
     background-color: var(--footer-top-bg-color);
 }
 
-.footer-bottom {
+.ms_footer-bottom {
     background-color: var(--header-footer-bg-color);
     /* debug */
     min-height: 4rem;
 }
+
+
